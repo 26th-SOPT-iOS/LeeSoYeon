@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="week3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ctz-F2-lqg">
+                                <rect key="frame" x="0.0" y="113" width="414" height="216"/>
+                            </pickerView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BaT-i7-NAv">
+                                <rect key="frame" x="0.0" y="433" width="414" height="415"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="제목" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FfA-BF-whF">
+                                <rect key="frame" x="29" y="350" width="30" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="가수" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dFU-Ue-u3t">
+                                <rect key="frame" x="29" y="379" width="30" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dan-13-D05">
+                                <rect key="frame" x="93" y="350" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tos-R3-tJC">
+                                <rect key="frame" x="93" y="379" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="BaT-i7-NAv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0Ce-ie-I95"/>
+                            <constraint firstItem="BaT-i7-NAv" firstAttribute="top" secondItem="dFU-Ue-u3t" secondAttribute="bottom" constant="33" id="4co-es-f2Y"/>
+                            <constraint firstItem="FfA-BF-whF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="29" id="5fm-th-oaQ"/>
+                            <constraint firstItem="dan-13-D05" firstAttribute="leading" secondItem="FfA-BF-whF" secondAttribute="trailing" constant="34" id="9Uy-wp-Hm0"/>
+                            <constraint firstItem="FfA-BF-whF" firstAttribute="top" secondItem="Ctz-F2-lqg" secondAttribute="bottom" constant="21" id="Ff4-O6-oIa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dan-13-D05" secondAttribute="trailing" constant="279" id="HAe-vZ-4ER"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="BaT-i7-NAv" secondAttribute="bottom" constant="14" id="Hi1-px-tXE"/>
+                            <constraint firstItem="Ctz-F2-lqg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="69" id="I1c-Ja-Roi"/>
+                            <constraint firstItem="BaT-i7-NAv" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="LDE-US-wIE"/>
+                            <constraint firstItem="dan-13-D05" firstAttribute="top" secondItem="Ctz-F2-lqg" secondAttribute="bottom" constant="21" id="P9O-4j-sWg"/>
+                            <constraint firstItem="Tos-R3-tJC" firstAttribute="leading" secondItem="dFU-Ue-u3t" secondAttribute="trailing" constant="34" id="UgR-LG-2HQ"/>
+                            <constraint firstItem="Tos-R3-tJC" firstAttribute="top" secondItem="dan-13-D05" secondAttribute="bottom" constant="8" id="bw4-Y6-JVn"/>
+                            <constraint firstItem="Ctz-F2-lqg" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="cbU-8o-hwr"/>
+                            <constraint firstItem="dFU-Ue-u3t" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="29" id="g8L-pI-afN"/>
+                            <constraint firstItem="Ctz-F2-lqg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="stL-dI-vPI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Tos-R3-tJC" secondAttribute="trailing" constant="279" id="xke-Rd-rGB"/>
+                            <constraint firstItem="dFU-Ue-u3t" firstAttribute="top" secondItem="FfA-BF-whF" secondAttribute="bottom" constant="8" id="yLn-Q0-mpi"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="albumImageView" destination="BaT-i7-NAv" id="Oot-H3-kTh"/>
+                        <outlet property="pickerView" destination="Ctz-F2-lqg" id="8gV-sh-g8F"/>
+                        <outlet property="singerLabel" destination="Tos-R3-tJC" id="2SP-hQ-I41"/>
+                        <outlet property="titleLabel" destination="dan-13-D05" id="Q9x-UP-gOm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="276.81159420289856" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+</document>
